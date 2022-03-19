@@ -64,7 +64,6 @@ if __name__ == "__main__":
                 with open('../lyrics-service-input.txt') as file:
                     lyrics_service_input = file.read()
             except FileNotFoundError:
-                # print("File not found")
                 time.sleep(1)
             else:
                 print("File processing...")
